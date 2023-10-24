@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="style.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;400;500;600;700&family=Source+Code+Pro:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+          <link rel="icon" href="./resources/icon.png">
+          <title>CPU Components</title>
+     </head>
+     <body>
+          <header>
+               <div>
+                    <h1>The Processor Components</h1>
+                    <h3>By Ore Ajibade</h3>
+               </div>
+          </header>
+          <nav>
+               <div>
+                    <a href="#">Home</a>
+                    <a href="#parts">Parts of the CPU</a>
+                    <a href="#cycle">Fetch-Execute Cycle</a>
+               </div>
+          </nav>
+          <main>
+               <section id="intro">
+                    <article>
+                         <div>
+                              <h2 class="s-head">What is the CPU?</h2>
+                              <p>The CPU, or Central Processing Unit, is the primary component of a computer that performs most of the processing inside the computer. It’s often referred to as the “brain” of the computer.The processor (also called the Central Processing Unit or CPU) has a number of different components, each with their own role to perform:</p>
+                              <ol>
+                                   <li>Control Unit</li>
+                                   <li>Buses</li>
+                                   <li>Arithmetic-Logic Unit</li>
+                                   <li>Dedicated Registers</li>
+                              </ol>
+                         </div>
+                         <img src="./resources/cpu_2.gif" alt="CPU">
+                    </article>
+               </section>
+               <section id="parts">
+                    <h2 class="s-head parts-head">Parts of the CPU</h2>
+                    <div class="parts-content">
+                         <div class="parts-section">
+                              <article class="par">
+                                   <div>
+                                        <h3>Control Unit</h3>
+                                        <p class="control">
+                                             This controls the flow of data within the system. It monitors communications between the hardware attached to the computer, controls the input and output of data, checks that signals have been delivered successfully, and ensures that data goes to the correct place at the correct time
+                                        </p>
+                                   </div>
+                                   <img src="./resources/cu_pic.jpeg" alt="Control Unit">
+                                   <p class="control-2">
+                                        The Control Unit (CU) of a computer operates by following a series of steps. It begins by fetching instructions from the main memory (RAM). These instructions are then decoded to determine the specific operations that need to be performed. The CU directs the appropriate components within the CPU to carry out these operations. It also manages and controls input, output, and storage. For instance, it sends control signals to the Arithmetic Logic Unit (ALU) for performing arithmetic and logical calculations as per the requirement. After calculations, it sends it to the register set to save or hold it temporarily. The CU ensures that instructions are executed in the correct order and synchronizes the activities of various components within the CPU to maintain proper operation.
+                                   </p>
+                              </article>
+                         </div>
+     
+                         <div class="parts-section">
+                              <article class="para">
+                                   <img src="./resources/bus-pic.gif" alt="Computer Bus" class="bus-header">
+                                   <div>
+                                        <h3>Bus</h3>
+                                        <p class="bus">
+                                             The CPU bus, often referred to as “the bus”, is a pathway composed of cables and connectors used to carry data between a computer microprocessor and the main memory1. It’s essentially a series of lines that connect the processor to another part of the computer’s architecture, such as cache memory or main memory2. The bus provides a communication path for the data and control signals moving between the major components of the computer system1.
+               
+                                             There are three main types of buses in a CPU:<br><br>
+     
+                                             <strong>Control Bus:</strong> The control bus in a CPU is a pathway used to transmit control signals between the CPU and other devices within the computer. These signals coordinate and regulate the actions of the computer's hardware, ensuring smooth operation.<br>
+               
+                                             <strong>Address Bus:</strong> This is uni-directional, meaning it passes an address one way, from the CPU to RAM. The sole purpose of an address bus is to identify the address of the location in cache or main memory that is to be read from or written to.
+                                        </p>
+                                   </div>
+                                   
+                                   <p class="bus-2">
+                                        <strong>Data Bus:</strong> This is bi-directional, meaning it can carry data to main memory from the processor and vice versa. The data bus transfers data to/from the address that is held on the address bus.<br><br>
+
+                                        The amount of data that can be carried by the data bus depends on the word size, which describes the width of the data bus. For instance, new processors usually have a word size of 8 bytes (64 bits), allowing for 64 bits to be transferred during each cycle.
+                                   </p>
+                                   <img src="./resources/bus_pic_2.jpeg" alt="Computer Bus">
+                              </article>
+                         </div>
+     
+                         <div class="parts-section">
+                              <article class="par">
+                                   <img src="./resources/alu_pic.jpeg" alt="">
+                                   <div>
+                                        <h3>Arithmetic-Logic Unit</h3>
+                                        <p>
+                                             The Arithmetic Logic Unit (ALU) is a key component of the computer’s central processing unit (CPU). It performs arithmetic and bitwise operations on binary numbers. The ALU receives data inputs and a code indicating the operation to be performed, then executes these operations which can include addition, subtraction, multiplication, and division. It also performs logical operations and decision-making tasks. The ALU acts as a gateway between primary memory and secondary storage, with data transferred between them passing through the ALU. The results of these operations are then outputted from the ALU. The ALU can also compare values and determine if values in registers are identical. It is coordinated by the Control Unit (CU), which employs the ALU as required to fetch and decode instructions, read data from storage, execute commands, and possibly write registers back.
+                                        </p>
+                                   </div>
+                              </article>
+                         </div>
+
+                         <div class="parts-section">
+                              <article>
+                                   <div>                                                                      
+                                        <h3>Registers</h3>
+                                        <p>
+                                             Registers are small storage areas within the CPU where data is stored and manipulated during processing. They are a critical part of a computer’s central processing unit (CPU) and contribute to the speed and efficiency of a computer’s operation.The Program Counter (PC) holds the address of the next instruction, the Current Instruction Register (CIR) holds the current instruction, the Memory Address Register (MAR) holds the address of the current instruction, the Memory Data Register (MDR) holds data fetched from memory, and the Accumulator stores results of calculations.
+                                        </p>
+                                   </div>
+                                   <img src="./resources/register_pic.jpeg" alt="">
+                              </article>
+                         </div>
+                    </div>
+               </section>
+               <section id="cycle">
+                    <h2 class="s-head">Executing Instructions</h2>
+
+                    <article class="fetch-intro">
+                         <img src="./resources/fetch-execute-cycle-pic.gif" alt="">
+                         <div>
+                              <p>
+                                   Processors operate in defined stages that are used to carry out program instructions.
+                                   The process is repeated over and over again for each instruction in a program. Below are the steps in the Fetch-Execute Cycle: 
+                              </p>
+                              <ol>
+                                   <li>
+                                        The address of the next instruction is copied from the PC to the Memory Address Register (MAR)
+                                   </li>
+                                   <li>
+                                        The instruction held at that address is copied to the Memory Data Register (MDR)
+                                   </li>
+                                   <li>
+                                        Simultaneously, the contents of the Program Counter (PC) are incremented 
+                                   </li>
+                                   <li>
+                                        The contents of the MDR are copied to the current Instruction Register (CIR)
+                                   </li>
+                                   <li>
+                                        The instruction held in the CIR is decoded
+                                   </li>
+                                   <li>
+                                        It is split into operand and opcode to determine the type of instruction it is. Additional data, if required, is fetched from memory…
+                                   </li>
+                                   <li>
+                                        ...and passed to the accumulator
+                                        The opcode specifies the operation that is to be carried out.
+                                        The operand holds either:<br>
+                                        The address of the data to be used, which is then copied to the MAR, or <br>
+                                        The actual data to be operated on, which is passed to the MDR
+                                   </li>
+                                   <li>
+                                        The instruction is executed and the result held in accumulator or stored in memory
+                                   </li>
+                              </ol>
+                         </div>
+                    </article>
+
+               </section>
+
+               <section id="resources">
+                    <h2 class="s-head">Useful Resources</h2>
+
+                    <div class="res-container">
+                         <a href="https://www.freecodecamp.org/news/how-does-a-cpu-work/" target="_blank" rel="noopener">
+                              <div class="res">
+                                   <img src="./resources/freeCodeCamp.jpeg" alt="fcc-img">
+                                   <span class="description">
+                                        <strong>freeCodeCamp:</strong> How does a CPU work?
+                                   </span>
+                              </div>
+                         </a>
+
+                         <a href="https://en.wikipedia.org/wiki/Instruction_cycle" target="_blank" rel="noopener">
+                              <div class="res">
+                                   <img src="./resources/wikipedia.jpeg" alt="wiki-img">
+                                   <span class="description"><strong>Wikipedia:</strong> Fetch-Execute Cycle</span>
+                              </div>
+                         </a>
+
+                         <a href="https://www.youtube.com/results?search_query=how+the+cpu+works" target="_blank" rel="noopener">
+                              <div class="res">
+                                   <img src="./resources/youtube.jpeg" alt="yt-img">
+                                   <span class="description"><strong>Youtube:</strong> Components of a CPU</span>
+                              </div>
+                         </a>
+                    </div>
+
+                    <div class="test">
+                         <button type="button" onclick="location = './quiz.html';">Take a Quiz</button>
+                    </div>
+               </section>
+          </main>
+          <footer>
+               <small>Copyright &copy; king525dev 2023</small>
+          </footer>
+     </body>
+</html>

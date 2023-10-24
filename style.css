@@ -1,0 +1,214 @@
+*{
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+
+body{
+     margin: 0;
+     padding: 0;
+     font-family: 'Source Code Pro', monospace;
+     background-color: #ececec;
+}
+
+::-webkit-scrollbar{
+     display: none;
+}
+
+a{
+     text-decoration: none;
+}
+
+.s-head {
+     font-size: 2.4em;
+     font-family: 'Martian Mono', monospace;
+}
+
+nav {
+     width: 100%;
+     padding: 1em 1em;
+     background-color: #ececec;
+     color: #333;
+     font-family: 'Martian Mono', monospace;
+     margin: 0;
+     position: sticky;
+     top: 0;
+     display: flex;
+     justify-content: flex-end;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+     z-index: 5;
+}
+
+nav a{
+     color: #0f2424;
+     margin: 0 1em;
+     padding: -1em 1em;
+}
+
+nav a:hover{
+     background-color: #0f2424;
+     color: #ececec;
+}
+
+nav div {
+     min-width: 50%;
+     display: flex;
+     justify-content: space-between;
+}
+
+header{
+     width: 100%;
+     height: 100vh;
+     background: url("./resources/headerbg.jpeg") fixed repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+header div{
+     width: 60%;
+     min-height: 50%;
+     color: #ececec;
+     font-family: 'Martian Mono', monospace;
+     background-color: #3a3a3a97;
+     padding: 2em;
+}
+
+header div h1{
+     font-size: 4.3em;
+}
+
+main{
+     padding: 4em 9em;
+     color: #0f2424;
+}
+
+section h2 {
+     font-size: 2.5em;
+     color:#0f2424;
+}
+
+section{
+     margin-bottom: 5em;
+     width: 100%;
+}
+
+section#intro article{
+     display: grid;
+     gap: 1rem;
+     grid-template-columns: repeat(2, 1fr) ;
+}
+
+section#intro article div,
+section#intro article img{
+     height: 100%;
+}
+
+section#parts .parts-head, section#cycle h2{
+     text-align: center;
+}
+
+section#parts div h3 {
+     font-size: 2em;
+     font-weight: 700;
+}
+
+section#parts article, section#cycle article{
+     display: grid;
+     gap: 1rem;
+     grid-template-columns: repeat(2, 1fr);
+     justify-items: center;
+     align-items: center;
+}
+
+section#parts p.control-2{
+     grid-column: span 2;
+}
+
+.res-container {
+     width: 100%;
+     padding: 3em;
+     display: grid;
+     gap: 1rem;
+     grid-template-columns: repeat(3, 1fr);
+}
+
+.res-container a{
+     width: 20rem;
+     height: 20rem;
+}
+
+.res{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: #fff;
+     width: 100%;
+     height: 100%;
+     transition: all 0.3s ease-in-out;
+}
+
+.res:hover{
+     transform: translateY(-0.7em) translateX(0.3em);
+     box-shadow: -0.7em 0.3em 15px 0px rgba(0, 0, 0, 0.4);
+}
+
+.res img{
+     width: 100%;
+     max-height: 15rem;
+     object-fit: cover;
+     margin-bottom: 1em;
+}
+
+.res span{
+     margin: auto;
+     padding: 0 1em;
+     font-family: 'Martian Mono', monospace;
+     color: #0f2424;
+}
+
+div.test {
+     display: flex;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+}
+
+div.test button{
+     background-color: #0f2424;
+     font-family: 'Martian Mono', monospace;
+     font-size: 0.8em;
+     color: #ececec;
+     padding: 1.5em 0.3em 1.5em 1.5em;
+     transition: all 0.3s ease;
+     outline: none;
+}
+
+div.test button::after{
+     position: relative;
+     top: 50%;
+     right: 1em;
+     font-size: 1.2em;
+     content: "   »";
+     opacity: 0;
+     transition: all 0.3s ease;
+}
+
+div.test button:hover{
+     padding-right: 2em;
+}
+
+div.test button:hover::after{
+     right: 0;
+     opacity: 1;
+}
+
+footer {
+     width: 100%;
+     height: 70vh;
+     background: url("./resources/headerbg.jpeg") fixed repeat;
+     color: #ececec;
+     display: flex;
+     align-items: flex-end;
+     justify-content: flex-start;
+     padding: 1.5em;
+}
