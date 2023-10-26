@@ -3,22 +3,26 @@
      <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <link rel="stylesheet" href="quiz-style.css">
+          <link rel="stylesheet" href="questions.css">
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;400;500;600;700&family=Source+Code+Pro:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
-          <link rel="icon" href="./resources/icon.png">
+          <link rel="icon" href="../resources/icon.png">
           <title>CPU Components | Quiz</title>
      </head>
-     <body>
+     <body onload="startQuiz()">
           <div class="wrapper">
-               <header>
-                    <h1>Processor Components Quiz</h1>
-               </header>
-               <main>
-                    <button type="button" class="back" onclick="location = './index.html';">Back</button>
-                    <button type="button" class="to-quiz">Take Quiz</button>
-               </main>
+               <header id="question"></header>
+               <main id="btn-wrapper"></main>
+               <footer>
+                    <button type="button" id="nxt">Next</button>
+               </footer>
           </div>
+
+          <div class="questNo">
+               <span id="questNo">5</span>/10
+          </div>
+
+          <script src="quiz.js"></script>
      </body>
 </html>

@@ -1,0 +1,108 @@
+*{
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+
+body{
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     width: 100%;
+     font-family: 'Source Code Pro', monospace;
+     background: #ececec;
+     color: #0f2424;
+     display: flex;
+     justify-content: center;
+     padding: 4em;
+}
+
+div.wrapper {
+     width: 60vw;
+     height: 60vh;
+}
+
+header{
+     width: 100%;
+     height: 30%;
+     font-family: 'Source Code Pro', monospace;
+     font-size: 2.5em;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: 600;
+}
+
+main{
+     padding: 1em;
+     width: 100%;
+     min-height: 60%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+
+main button{
+     width: 60%;
+     margin: 0.7em;
+     padding: 0.7em;
+     border: 1px solid #0f2424;
+     background-color: transparent;
+     font-size: 1.1em;
+     text-align: left;
+     outline: none;
+     transition: all 0.3s ease;
+}
+
+main button.correct{
+     background-color: #9ee0bb;
+}
+
+main button.wrong{
+     background-color: #ff9b91;
+}
+
+main button:hover:not([disabled]){
+     background-color: #0f2424;
+     color: #ececec;
+}
+
+main button:disabled{
+     color: #0f2424;
+     cursor: no-drop;
+}
+
+footer{
+     height: 10%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+footer button{
+     padding: 0.6em 2em;
+     font-size: 1em;
+     color: #ececec;
+     background-color: #3f9393;
+     outline: none;
+     border: none;
+}
+
+footer button:hover{
+     background-color: #4fb3b3;
+}
+
+footer button:active{
+     background-color:#0f2424;
+}
+
+div.questNo{
+     position: absolute;
+     bottom: 0.5em;
+     right: 0.5em;
+     font-size: 1.2em;
+     font-weight: 400;
+     padding: 0.2em
+}

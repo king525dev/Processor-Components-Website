@@ -1,0 +1,611 @@
+[
+     {
+          "question": "What is the primary component of a computer that performs most of the processing?",
+          "answer": [
+               {
+                    "text": "Hard Drive",
+                    "correct": false
+               },
+               {
+                    "text": "Central Processing Unit (CPU)",
+                    "correct": true
+               },
+               {
+                    "text": "Graphics Processing Unit (GPU)",
+                    "correct": false
+               },
+               {
+                    "text": "Motherboard",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "Which component of the CPU is often referred to as the 'brain' of the computer?",
+          "answer": [
+               {
+                    "text": "Control Unit",
+                    "correct": true
+               },
+               {
+                    "text": "Arithmetic-Logic Unit (ALU)",
+                    "correct": false
+               },
+               {
+                    "text": "Memory Data Register (MDR)",
+                    "correct": false
+               },
+               {
+                    "text": "Data Bus",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "What is the primary function of the Control Unit (CU) in a CPU?",
+          "answer": [
+               {
+                    "text": "Perform arithmetic calculations",
+                    "correct": false
+               },
+               {
+                    "text": "Manage and control input and output operations",
+                    "correct": true
+               },
+               {
+                    "text": "Coordinate memory storage",
+                    "correct": false
+               },
+               {
+                    "text": "Handle data transmission between CPUs",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "Which type of bus is used to transmit control signals between the CPU and other devices within a computer?",
+          "answer": [
+               {
+                    "text": "Control Bus",
+                    "correct": true
+               },
+               {
+                    "text": "Address Bus",
+                    "correct": false
+               },
+               {
+                    "text": "Data Bus",
+                    "correct": false
+               },
+               {
+                    "text": "Memory Bus",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "What is the purpose of the Address Bus in a CPU?",
+          "answer": [
+               {
+                    "text": "Transmit data between CPU and RAM",
+                    "correct": false
+               },
+               {
+                    "text": "Identify the address of the location in memory to read from or write to",
+                    "correct": true
+               },
+               {
+                    "text": "Coordinate data transfer between the CPU and peripherals",
+                    "correct": false
+               },
+               {
+                    "text": "Perform logical operations on data",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "Which component of the CPU performs arithmetic and bitwise operations on binary numbers?",
+          "answer": [
+               {
+                    "text": "Memory Data Register (MDR)",
+                    "correct": false
+               },
+               {
+                    "text": "Control Unit (CU)",
+                    "correct": false
+               },
+               {
+                    "text": "Central Processing Unit (CPU)",
+                    "correct": false
+               },
+               {
+                    "text": "Arithmetic-Logic Unit (ALU)",
+                    "correct": true
+               }
+          ]
+     },
+     {
+          "question": "Which component is responsible for temporarily storing and manipulating data during processing?",
+          "answer": [
+               {
+                    "text": "Arithmetic-Logic Unit (ALU)",
+                    "correct": false
+               },
+               {
+                    "text": "Control Unit (CU)",
+                    "correct": false
+               },
+               {
+                    "text": "Memory Data Register (MDR)",
+                    "correct": false
+               },
+               {
+                    "text": "Registers",
+                    "correct": true
+               }
+          ]
+     },
+     {
+          "question": "Which register holds the address of the next instruction to be executed?",
+          "answer": [
+               {
+                    "text": "Current Instruction Register (CIR)",
+                    "correct": false
+               },
+               {
+                    "text": "Memory Address Register (MAR)",
+                    "correct": false
+               },
+               {
+                    "text": "Program Counter (PC)",
+                    "correct": true
+               },
+               {
+                    "text": "Memory Data Register (MDR)",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "In a CPU, which bus carries data to/from the address held on the address bus?",
+          "answer": [
+               {
+                    "text": "Control Bus",
+                    "correct": false
+               },
+               {
+                    "text": "Data Bus",
+                    "correct": true
+               },
+               {
+                    "text": "Address Bus",
+                    "correct": false
+               },
+               {
+                    "text": "I/O Bus",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "Which step in the Fetch-Execute Cycle involves decoding the current instruction to determine the operation to be performed?",
+          "answer": [
+               {
+                    "text": "Incrementing the Program Counter (PC)",
+                    "correct": false
+               },
+               {
+                    "text": "Copying the contents of the Memory Data Register (MDR) to the Current Instruction Register (CIR)",
+                    "correct": false
+               },
+               {
+                    "text": "Fetching instructions from the main memory (RAM)",
+                    "correct": false
+               },
+               {
+                    "text": "Decoding the current instruction in the CIR",
+                    "correct": true
+               }
+          ]
+     },
+     {
+          "question": "Which component manages and controls the input, output, and storage operations in a CPU?",
+          "answer": [
+               {
+                    "text": "Arithmetic-Logic Unit (ALU)",
+                    "correct": false
+               },
+               {
+                    "text": "Control Unit (CU)",
+                    "correct": true
+               },
+               {
+                    "text": "Memory Data Register (MDR)",
+                    "correct": false
+               },
+               {
+                    "text": "Data Bus",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "What type of operations does the Arithmetic Logic Unit (ALU) perform in a CPU?",
+          "answer": [
+               {
+                    "text": "Input and output operations",
+                    "correct": false
+               },
+               {
+                    "text": "Arithmetic and bitwise operations on binary numbers",
+                    "correct": true
+               },
+               {
+                    "text": "Control signal operations",
+                    "correct": false
+               },
+               {
+                    "text": "Logical operations",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "What is the primary function of the Data Bus in a CPU?",
+          "answer": [
+               {
+                    "text": "To carry control signals between the CPU and other devices",
+                    "correct": false
+               },
+               {
+                    "text": "To pass the address of the location in cache or main memory",
+                    "correct": false
+               },
+               {
+                    "text": "To transfer data to/from the address held on the address bus",
+                    "correct": true
+               },
+               {
+                    "text": "To perform logical operations on data",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "What determines the width of the data bus in a CPU?",
+          "answer": [
+               {
+                    "text": "The speed of the CPU",
+                    "correct": false
+               },
+               {
+                    "text": "The type of RAM used",
+                    "correct": false
+               },
+               {
+                    "text": "The width of the data registers",
+                    "correct": false
+               },
+               {
+                    "text": "The word size, describing the width of the data bus",
+                    "correct": true
+               }
+          ]
+     },
+     {
+          "question": "In the context of CPU design, what does ALU stand for?",
+          "answer": [
+               {
+                    "text": "Arithmetic Language Unit",
+                    "correct": false
+               },
+               {
+                    "text": "Advanced Logic Unit",
+                    "correct": false
+               },
+               {
+                    "text": "Arithmetic-Logic Unit",
+                    "correct": true
+               },
+               {
+                    "text": "Application Logic Unit",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "Which component in a CPU temporarily holds the data fetched from memory?",
+          "answer": [
+               {
+                    "text": "Program Counter (PC)",
+                    "correct": false
+               },
+               {
+                    "text": "Memory Address Register (MAR)",
+                    "correct": false
+               },
+               {
+                    "text": "Current Instruction Register (CIR)",
+                    "correct": false
+               },
+               {
+                    "text": "Memory Data Register (MDR)",
+                    "correct": true
+               }
+          ]
+     },
+     {
+          "question": "What is the purpose of the Address Bus in a CPU?",
+          "answer": [
+               {
+                    "text": "To transmit control signals between the CPU and other devices",
+                    "correct": false
+               },
+               {
+                    "text": "To pass the address of the location in cache or main memory",
+                    "correct": true
+               },
+               {
+                    "text": "To carry data to/from the address held on the address bus",
+                    "correct": false
+               },
+               {
+                    "text": "To perform arithmetic operations on data",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "In a CPU, which component monitors communications between the hardware attached to the computer?",
+          "answer": [
+               {
+                    "text": "Arithmetic-Logic Unit (ALU)",
+                    "correct": false
+               },
+               {
+                    "text": "Control Unit (CU)",
+                    "correct": false
+               },
+               {
+                    "text": "Program Counter (PC)",
+                    "correct": false
+               },
+               {
+                    "text": "Control Unit (CU)",
+                    "correct": true
+               }
+          ]
+     },
+     {
+          "question": "What type of operations does the Control Unit (CU) send control signals to the Arithmetic Logic Unit (ALU) to perform?",
+          "answer": [
+               {
+                    "text": "Storage operations",
+                    "correct": false
+               },
+               {
+                    "text": "Input and output operations",
+                    "correct": false
+               },
+               {
+                    "text": "Arithmetic and logical operations",
+                    "correct": true
+               },
+               {
+                    "text": "Control signal operations",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "Which component in a CPU holds the address of the current instruction?",
+          "answer": [
+               {
+                    "text": "Program Counter (PC)",
+                    "correct": false
+               },
+               {
+                    "text": "Memory Address Register (MAR)",
+                    "correct": false
+               },
+               {
+                    "text": "Current Instruction Register (CIR)",
+                    "correct": false
+               },
+               {
+                    "text": "Memory Data Register (MDR)",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "In the Fetch-Execute Cycle, what is the purpose of incrementing the Program Counter (PC)?",
+          "answer": [
+               {
+                    "text": "To perform logical operations",
+                    "correct": false
+               },
+               {
+                    "text": "To decode the current instruction",
+                    "correct": false
+               },
+               {
+                    "text": "To fetch instructions from main memory",
+                    "correct": false
+               },
+               {
+                    "text": "To prepare for the next instruction fetch",
+                    "correct": true
+               }
+          ]
+     },
+     {
+          "question": "Which bus in a CPU is used to carry data between the microprocessor and the main memory?",
+          "answer": [
+               {
+                    "text": "Control Bus",
+                    "correct": false
+               },
+               {
+                    "text": "Data Bus",
+                    "correct": true
+               },
+               {
+                    "text": "Address Bus",
+                    "correct": false
+               },
+               {
+                    "text": "I/O Bus",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "What type of operations are performed by the Arithmetic-Logic Unit (ALU) in a CPU?",
+          "answer": [
+               {
+                    "text": "Input and output operations",
+                    "correct": false
+               },
+               {
+                    "text": "Arithmetic and logical operations",
+                    "correct": true
+               },
+               {
+                    "text": "Control signal operations",
+                    "correct": false
+               },
+               {
+                    "text": "Storage operations",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "What is the purpose of the Memory Data Register (MDR) in a CPU?",
+          "answer": [
+               {
+                    "text": "To hold the address of the next instruction",
+                    "correct": false
+               },
+               {
+                    "text": "To store the results of calculations",
+                    "correct": true
+               },
+               {
+                    "text": "To decode instructions",
+                    "correct": false
+               },
+               {
+                    "text": "To increment the Program Counter (PC)",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "In the Fetch-Execute Cycle, what is the final step after decoding the current instruction?",
+          "answer": [
+               {
+                    "text": "Fetching instructions from main memory",
+                    "correct": false
+               },
+               {
+                    "text": "Performing logical operations",
+                    "correct": false
+               },
+               {
+                    "text": "Fetching additional data from memory",
+                    "correct": true
+               },
+               {
+                    "text": "Executing the current instruction",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "In the context of CPU design, what does ALU stand for?",
+          "answer": [
+               {
+                    "text": "Arithmetic Language Unit",
+                    "correct": false
+               },
+               {
+                    "text": "Advanced Logic Unit",
+                    "correct": false
+               },
+               {
+                    "text": "Arithmetic-Logic Unit",
+                    "correct": true
+               },
+               {
+                    "text": "Application Logic Unit",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "Which component temporarily holds the address of the current instruction in a CPU?",
+          "answer": [
+               {
+                    "text": "Memory Data Register (MDR)",
+                    "correct": false
+               },
+               {
+                    "text": "Control Unit (CU)",
+                    "correct": false
+               },
+               {
+                    "text": "Current Instruction Register (CIR)",
+                    "correct": false
+               },
+               {
+                    "text": "Memory Address Register (MAR)",
+                    "correct": true
+               }
+          ]
+     },
+     {
+          "question": "In the context of CPU design, what is the primary function of the Control Unit (CU)?",
+          "answer": [
+               {
+                    "text": "Perform arithmetic calculations",
+                    "correct": false
+               },
+               {
+                    "text": "Manage and control input and output operations",
+                    "correct": true
+               },
+               {
+                    "text": "Coordinate memory storage",
+                    "correct": false
+               },
+               {
+                    "text": "Handle data transmission between CPUs",
+                    "correct": false
+               }
+          ]
+     },
+     {
+          "question": "In a CPU, what is the primary function of the Control Unit (CU)?",
+          "answer": [
+               {
+                    "text": "Perform arithmetic calculations",
+                    "correct": false
+               },
+               {
+                    "text": "Manage and control input and output operations",
+                    "correct": true
+               },
+               {
+                    "text": "Coordinate memory storage",
+                    "correct": false
+               },
+               {
+                    "text": "Handle data transmission between CPUs",
+                    "correct": false
+               }
+          ]
+     }
+]
