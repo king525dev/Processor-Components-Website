@@ -250,7 +250,8 @@ const failComments = [
      "Try again",
      "Poor",
      "What would your mother say?",
-     ":("
+     ":(",
+     "This is just sad"
 ]
 
 const passComments = [
@@ -350,20 +351,21 @@ function displayScore() {
      score = localStorage.getItem("score");
      scoreBoard.innerHTML = score;
 
-     if(score > 5){
+     if(score >= 5){
           const passIndex = Math.floor(Math.random() * passComments.length);
           commentPlatform.innerHTML = `"${passComments[passIndex]}"`;
           scoreWrapper.classList.add("pass");
           commentPlatform.classList.add("pass");
      }else{
-          const failIndex = Math.floor(Math.random() * passComments.length);
+          const failIndex = Math.floor(Math.random() * failComments.length);
+          console.log(failIndex)
           commentPlatform.innerHTML = `"${failComments[failIndex]}"`;
           scoreWrapper.classList.add("fail");
           commentPlatform.classList.add("fail");
      }
 
      quizBtn.innerText = "Try Again";
-     wrapper.style.display = "flex";
+     wrapper.style.opacity = "1";
 }
 
 function loadHome(){
