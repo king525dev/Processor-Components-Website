@@ -241,3 +241,18 @@ footer {
      justify-content: flex-start;
      padding: 1.5em;
 }
+
+@media screen and (min-width: 1900px) {
+     body{
+          font-size: 120%;
+     }
+     
+     header div{
+          padding: 5vw
+     }
+
+     main{
+          padding: 4em 10vw;
+          color: #0f2424;
+     }
+}
